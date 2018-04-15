@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{74A76EB3-89B1-4004-BF6C-8D87CB11620A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPatternClient", "InterpreterPatternClient\InterpreterPatternClient.csproj", "{EA5C1460-B71F-4AEF-9008-C9FEFF497821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandwich Interpreter", "Sandwich Interpreter", "{7478CC3D-AB30-429D-A0F2-57ABDD5D9877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{526B46C1-9BC7-416F-A079-336F06B773FC}"
+	ProjectSection(SolutionItems) = preProject
+		..\interpreter-pattern-diagram.gif = ..\interpreter-pattern-diagram.gif
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Roman Numeric Interpreter", "Roman Numeric Interpreter", "{1658DC9D-A18C-4A98-8FF7-77C04249EC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumericClient", "RomanNumericClient\RomanNumericClient.csproj", "{1BC9B75A-B852-489D-8233-265193DE0146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumericInterpreter", "RomanNumericInterpreter\RomanNumericInterpreter.csproj", "{34E193D1-1ECF-485F-B889-AE963A66951E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polish Notation Interpreter", "Polish Notation Interpreter", "{3E26D636-C8FD-4793-846A-A06E32141595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishNotationInterpreter", "PolishNotationInterpreter\PolishNotationInterpreter.csproj", "{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishNotationInterpreterClient", "PolishNotationInterpreterClient\PolishNotationInterpreterClient.csproj", "{B81C0DD8-42E7-4029-BB51-E2B032C47397}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74A76EB3-89B1-4004-BF6C-8D87CB11620A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A76EB3-89B1-4004-BF6C-8D87CB11620A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A76EB3-89B1-4004-BF6C-8D87CB11620A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A76EB3-89B1-4004-BF6C-8D87CB11620A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5C1460-B71F-4AEF-9008-C9FEFF497821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5C1460-B71F-4AEF-9008-C9FEFF497821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5C1460-B71F-4AEF-9008-C9FEFF497821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5C1460-B71F-4AEF-9008-C9FEFF497821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC9B75A-B852-489D-8233-265193DE0146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC9B75A-B852-489D-8233-265193DE0146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC9B75A-B852-489D-8233-265193DE0146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC9B75A-B852-489D-8233-265193DE0146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E193D1-1ECF-485F-B889-AE963A66951E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E193D1-1ECF-485F-B889-AE963A66951E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E193D1-1ECF-485F-B889-AE963A66951E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E193D1-1ECF-485F-B889-AE963A66951E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81C0DD8-42E7-4029-BB51-E2B032C47397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81C0DD8-42E7-4029-BB51-E2B032C47397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81C0DD8-42E7-4029-BB51-E2B032C47397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81C0DD8-42E7-4029-BB51-E2B032C47397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74A76EB3-89B1-4004-BF6C-8D87CB11620A} = {7478CC3D-AB30-429D-A0F2-57ABDD5D9877}
+		{EA5C1460-B71F-4AEF-9008-C9FEFF497821} = {7478CC3D-AB30-429D-A0F2-57ABDD5D9877}
+		{1BC9B75A-B852-489D-8233-265193DE0146} = {1658DC9D-A18C-4A98-8FF7-77C04249EC1B}
+		{34E193D1-1ECF-485F-B889-AE963A66951E} = {1658DC9D-A18C-4A98-8FF7-77C04249EC1B}
+		{020A273C-AD4C-4F56-A4F2-BE077CDCBBD4} = {3E26D636-C8FD-4793-846A-A06E32141595}
+		{B81C0DD8-42E7-4029-BB51-E2B032C47397} = {3E26D636-C8FD-4793-846A-A06E32141595}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6725AB42-F6D9-4331-BC8A-918282CAF308}
+	EndGlobalSection
+EndGlobal
