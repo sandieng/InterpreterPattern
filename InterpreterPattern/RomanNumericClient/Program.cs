@@ -48,7 +48,7 @@ namespace RomanNumericClient
                     expression.Interpret(context);
                 }
 
-                Console.WriteLine($"{romanNumeral} = {context.GetOutput()}");
+                Console.WriteLine($"{romanNumeral} = {context.Output}");
 
             } while (!string.IsNullOrEmpty(romanNumeral));
         }

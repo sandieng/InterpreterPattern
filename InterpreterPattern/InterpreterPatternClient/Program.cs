@@ -16,7 +16,7 @@ namespace InterpreterPatternClient
                 new IngredientList(
                     new List<Ingredient> { new LettuceIngredient(), new ChickenIngredient() }
                     ),
-                   new CondimentList(
+                new CondimentList(
                     new List<Condiment> { new MayoCondiment(), new MustardCondiment() }
                     ),
                 new WheatBread()

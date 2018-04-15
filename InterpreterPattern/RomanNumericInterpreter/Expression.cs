@@ -3,37 +3,32 @@
     public abstract class Expression
     {
         public void Interpret(Context context)
-        {
-            if (context.GetInput().Length == 0)
+        {          
+            if (context.Input.Length == 0)
             {
                 return;
             }
 
-            if (context.GetInput().StartsWith(Nine()))
+            if (context.Input.StartsWith(Nine()))
             {
-                context.SetOutput(context.GetOutput() + (9 * Multiplier()));
-                context.SetInput(context.GetInput().Substring(2));
+                context.Output = context.Output + (9 * Multiplier());
+                context.Input = context.Input.Substring(2);
+            }   
+            else if (context.Input.StartsWith(Five()))
+            {
+                context.Output = context.Output + (5 * Multiplier());
+                context.Input = context.Input.Substring(1);
             }
-            //else if (context.GetInput().StartsWith(Four()))
-            //{
-            //    context.SetOutput(context.GetOutput() + (4 * Multiplier()));
-            //    context.SetInput(context.GetInput().Substring(2));
-            //}
-            else if (context.GetInput().StartsWith(Five()))
+            else if (context.Input.StartsWith(Four()))
             {
-                context.SetOutput(context.GetOutput() + (5 * Multiplier()));
-                context.SetInput(context.GetInput().Substring(1));
-            }
-            else if (context.GetInput().StartsWith(Four()))
-            {
-                context.SetOutput(context.GetOutput() + (4 * Multiplier()));
-                context.SetInput(context.GetInput().Substring(2));
+                context.Output = context.Output + (4 * Multiplier());
+                context.Input = context.Input.Substring(2);
             }
 
-            while (context.GetInput().StartsWith(One()))
+            while (context.Input.StartsWith(One()))
             {
-                context.SetOutput(context.GetOutput() + (1 * Multiplier()));
-                context.SetInput(context.GetInput().Substring(1));
+                context.Output = context.Output + (1 * Multiplier());
+                context.Input = context.Input.Substring(1);
             }
         }
 
